@@ -10,3 +10,4 @@ applications:
   - CDBPOT
   - availability-monitoring-auto
   buildpack: sdk-for-nodejs
+  manifest: sdk-for-nodejs
