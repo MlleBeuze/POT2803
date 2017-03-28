@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: POT2803
+  host: POT2803
+  disk_quota: 1024M
+  services:
+  - CDBPOT
+  - availability-monitoring-auto
+  buildpack: sdk-for-nodejs
